@@ -1,18 +1,18 @@
-"use client"
+"use client";
 import Image from "next/image";
 import { Calendar, Clock, MapPin } from "lucide-react";
 import Link from "next/link";
-import AOS from "aos"
+import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function Undangan() {
-     useEffect(() => {
-       AOS.init({
-         duration: 2000, // Durasi animasi dalam ms
-         once: false, // Animasi hanya berjalan sekali saat scroll
-       });
-     }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: false,
+    });
+  }, []);
   return (
     <div data-aos="fade-up" className="flex justify-center items-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 p-2">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl w-full">
@@ -56,8 +56,8 @@ export default function Undangan() {
                 <div className="flex items-center gap-1">
                   <MapPin className="w-6 h-6 text-[#6b0f1a]" />
                   <Link href="https://maps.app.goo.gl/QHSwcPSE3A7d4wpHA">
-                    <p className="hover:underline text-sm">Labor lantai 3,</p>
-                    <p className="hover:underline text-sm">Kampus 2</p>
+                    <p className="hover:underline hover:animate-pulse text-sm">Labor lantai 3,</p>
+                    <p className="hover:underline hover:animate-pulse text-sm">Kampus 2</p>
                   </Link>
                 </div>
               </div>
