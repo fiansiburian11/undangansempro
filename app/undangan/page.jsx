@@ -57,7 +57,7 @@ export default function Undangan() {
                   <MapPin className="w-6 h-6 text-[#6b0f1a]" />
                   <Link href="https://maps.app.goo.gl/QHSwcPSE3A7d4wpHA">
                     <p className="hover:underline text-sm">Labor lantai 3,</p>
-                    <p className="hover:underline text-sm">Kampus 3</p>
+                    <p className="hover:underline text-sm">Kampus 2</p>
                   </Link>
                 </div>
               </div>
